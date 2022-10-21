@@ -2,6 +2,18 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <style>
+    table,
+        td {
+            border: 1px solid #333;
+        }
+        
+        thead,
+        tfoot {
+            background-color: #333;
+            color: #fff;
+        }
+        </style>
     <title>Menu du Restaurant Le Fiasco sur Montpellier</title>
 </head>
 <body>
@@ -12,6 +24,51 @@
         <li><a href="menu/entree_1.html">Entrée 1</a></li>
         <li>Entrée 2</li>
         <li>Entrée 3</li>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom du produit</th>
+                    <th>Prix HT</th>
+                    <th>Quantité</th>
+                    <th>Prix TTC</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Produit 1</td>
+                    <td>Prix 1 HT</td>
+                    <td>Quantité Produit 1</td>
+                    <td>Prix 1 TTC</td>
+                </tr>
+                <tr>
+                    <td>Produit 2</td>
+                    <td>Prix 2 HT</td>
+                    <td>Quantité Produit 2</td>
+                    <td>Prix 2 TTC</td>
+                </tr>
+                <tr>
+                    <td>Produit 3</td>
+                    <td>Prix 3 HT</td>
+                    <td>Quantité Produit 3</td>
+                    <td>Prix 3 TTC</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2"> </td>
+                    <th> TOTAL</th>
+                    <th>100 €</th>
+                </tr>
+                <tr>
+                    
+                    <th> TOTAL TTC</th>
+                    <th>120 €</th>
+                </tr>
+
+            </tfoot>
+            
+
+        </table>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, quisquam quam. Consequatur ullam, eum minus saepe illum autem iure neque libero nihil, nostrum facere in, quia ipsam? Ipsum, provident nemo.
         Repudiandae culpa nesciunt impedit et reprehenderit odit officia? Quas temporibus magnam qui optio dolore. Corporis aut odit dignissimos voluptas laudantium iusto corrupti mollitia sapiente labore maxime? Dolorum quo ad quae!
         Reiciendis reprehenderit veritatis eius, quasi molestiae et facilis quo iusto incidunt? Nobis culpa minima, veniam eius cum corrupti iste? Debitis animi quisquam corrupti adipisci dolorum ex explicabo soluta optio ipsam!
