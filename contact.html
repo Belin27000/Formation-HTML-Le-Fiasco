@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lee fiasco, Nous contacter</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="LeRestaurant............">
+    <meta name="keywords" content="Restaurant,Montpellier, Fruit de mer">
+    
+</head>
+<body>
+      <nav>
+        <ul>
+            <li><a href="index.html">acceuil</a></li>
+            <li><a href="menu.html">menu</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <h1>Nous contacter</h1>
+    <form action="contact.html">
+        <fieldset>
+            <legend>Nous contacter</legend>
+        <div>
+            <label for="emailinput">Votre email</label>
+            <input type="text" name="email" id="emailinput" placeholder="contact@demo.fr" required>
+        </div>
+        
+        <div>
+            <label for="fileinput">Pièce jointe</label>
+            <input type="file" name="file" id="fileinput">
+        </div>
+        <div>
+            <label id="sexe">Sexe</label>
+            <select name="sexe" id="sexe" multiple>
+                <option value="m">Masculin</option>
+                <option value="f">Feminin</option>
+            </select>
+        </div>
+        <div>
+            <label id="sexe">Animal préféré</label>
+            <select name="animal" id="animal" multiple>
+                <optgroup label="Mammifère">
+                    <option>Cheval</option>
+                    <option >Chat</option>
+                </optgroup>
+                <optgroup label="Poisson">
+                    <option >Dauphin</option>
+                </optgroup>
+
+            </select>
+        </div>
+            <div>
+                <input type="radio" name="sexe" id="masculin" checked>
+                <label for="masculin">Masculin</label>
+            </div>
+            <div>
+                <input type="radio" name="sexe" id="feminin">
+                <label for="feminin">Feminin</label>
+            </div>
+        </div>
+        <div>
+            <label for="message">Votre message</label>
+            <textarea name="message" id="message"></textarea>
+        </div>
+        <div>
+            <label><input type="checkbox" name="cgu" checked>J'accepte les conditions d'utilisations</label>
+        </div>
+        <input type="submit" value="Envoyer un email">
+        <input type="reset" value="Annuler">
+        <button type="submit">annuler</button>
+        </fieldset>
+    </form>
+</body>
+</html>
